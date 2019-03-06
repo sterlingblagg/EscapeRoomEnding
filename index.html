@@ -1,0 +1,34 @@
+<!-- notice how both the opening <html> tag and the closing </html> tag are NOT indented so you can clearly see the start and end of the code -->
+<!DOCTYPE html>
+<html>
+	
+	<!-- the <head> section is for all the information that is needed by the browser but does NOT show up on the page -->
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Escape Room Ending</title>
+		<link rel="stylesheet" href="style.css"/>
+		<link rel="shortcut icon" type="image/png" href="images/lock.png"/>
+	</head>
+
+	<!-- the <body> section is for all the content that is actually displayed on the page -->
+	<body>
+		<div class="column blue center-content">
+			<img src="images/home1.png" class="restrict-img-size">
+		</div>
+		<div class="column blue">
+			<div class="box center-content">
+				<img src="images/congrats.png" class="restrict-img-size btn grow">
+			</div>
+			<div class="box center-content">
+				<img src="images/restart.png" class="restrict-img-size btn grow" onclick="buttonPageSwap(this)" id="button">
+			</div>
+		</div>
+		<div class="column blue center-content">
+			<img src="images/home2.png" class="restrict-img-size">
+		</div>
+		
+		<script src="script.js"></script>
+	</body>
+</html>
+
